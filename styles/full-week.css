@@ -1,50 +1,53 @@
-<!DOCTYPE html>
-<html lang="en">
- <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+h1 {
+    font-size: 48px;
+    color : rgb(71, 62, 62);
+    margin: 0;
+}
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;700&family=Oswald:wght@700&display=swap" rel="stylesheet">
-   
-    <link href="styles/shared.css" rel="stylesheet">
-    <link href="styles/full-week.css" rel="stylesheet">
-  
-    <title>My Upcoming Challenge</title>
- </head>
+h2 {
+    font-family: 'Oswald', sans-serif;
+    color: rgb(71, 29, 22);
+}
 
- <body>
+#description {
+    margin-bottom: 12px;
+}
 
-    <header>
-     <h1> My Upcoming Challenge </h1> 
-     <p id="description"> These are my goals for the next days </p>
-     <a href='/'> View Today's Challenge </a>
-    </header>
+header {
+    margin-bottom:64px;
+}
 
-    <main>
-     <ol>
-         <li>
-            <h2> Tuesday, April 2nd </h2>
-            <p>Repeat what i learned about HTML & CSS </p> 
-        </li>
-        
-         <li class="highligh-goal"> 
-            <h2> Wednesday, April 3rd </h2>
-            <p> Do the exercises on Html & CSS </p>
-         </li>
+/* header p {
+    margin-bottom: 36px;
+} */
 
-         <li class="highlight-goal">
-            <h2> Thursday, April 4th </h2>
-        <p>  Dive deeper into HTML & CSS and build more complex websites </p>     
-        </li>
+a {
+    padding: 12px 48px;
+    background-color : rgb(167, 1, 78);
+    color: white;
+    border: 1px solid rgb(167, 1, 78);
+    border-radius: 4px;
+    font-size: 24px;
+    display: inline-block;
+    margin: 0px;
+}
 
-         <li>
-            <h2> Friday, April 5th </h2>
-            <p> Practice advanced HTML & CSS concepts </p>
-         </li>
-     </ol>
-    </main>
+ol {
+    list-style: none;
+    width: 500px;
+    margin : 36px auto 0 auto ; 
+    padding: 0;
+    
+}
 
- </body>
-</html>
+li {
+    padding: 16px;
+    background-color: rgb(223, 136, 124);
+    margin: 32px;
+    border-radius: 6px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0,0.5);
+}
+
+ .highlight-goal {
+    background-color: rgb(225, 118, 104);
+}
